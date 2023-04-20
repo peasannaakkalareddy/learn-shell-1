@@ -1,2 +1,2 @@
-ab=$(script "$0")
+ab=$(realpath "$0")
 echo $ab
