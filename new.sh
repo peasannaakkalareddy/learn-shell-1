@@ -1,6 +1,3 @@
-ab=$(realpath "$0")
-echo $ab
-
-script_path=$(dirname "$ab")
-echo $script_path
-
+script=$(realpath "$0")
+script_path=$(dirname "$script")
+source$script_path/common.sh
